@@ -1,7 +1,4 @@
 {
-"networking": {
-  "allowedIpRanges": ["AzureFrontDoor.Backend"]
-}
   "routes": [
     {
       "route": "_next/static/*",
