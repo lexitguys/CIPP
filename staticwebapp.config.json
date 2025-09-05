@@ -1,6 +1,5 @@
 {
   "routes": [
-    { "route": "/.auth/*", "allowedRoles": ["anonymous","authenticated"] },
     {
       "route": "_next/static/*",
       "headers": {
@@ -31,6 +30,7 @@
       "route": "/.auth/login/github",
       "statusCode": 404
     },
+    { "route": "/.auth/*", "allowedRoles": ["anonymous","authenticated"] },
     {
       "route": "/logout",
       "redirect": "/.auth/logout?post_logout_redirect_uri=/LogoutRedirect"
