@@ -1,5 +1,6 @@
 {
   "routes": [
+    { "route": "/.auth/*", "allowedRoles": ["anonymous","authenticated"] },
     {
       "route": "_next/static/*",
       "headers": {
