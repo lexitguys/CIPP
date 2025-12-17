@@ -93,16 +93,8 @@
     ".json": "text/json"
   },
   "networking": {
-    "allowedIpRanges": ["AzureFrontDoor.Backend"]
-  },
-
-  "forwardingGateway": {
-    "requiredHeaders": {
-      "X-Azure-FDID": "f3aa4470-94cb-4421-bf64-4fd5c81bc310"
-    },
-    "allowedForwardedHosts": [
-      "cipp-e3aacgdegzb5asdu.z01.azurefd.net",
-      "cipp.itguys.com"
+    "allowedIpRanges": [
+      "217.180.56.239"
     ]
   }
 }
